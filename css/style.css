@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Marhey&family=Roboto+Condensed:wght@600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
 :root {
   --colorBg: #001b2e;
-  --colorFont: #ffffff;
+  --colorFont: #ffefd3;
   --color2: #294c60;
   --color4: ;
 }
@@ -24,5 +26,8 @@ nav > ul {
   display: flex;
 }
 nav > ul > * {
+  font-family: "Marhey", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   margin: 15px;
+  font-size: 15pt;
 }
