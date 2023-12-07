@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --colorBg: #001b2e;
+  --colorFont: #ffffff;
+  --color2: #294c60;
+  --color4: ;
+}
+body {
+  background-color: var(--colorBg);
+}
+header {
+  color: var(--colorFont);
+  display: flex;
+  background-color: var(--color2);
+  height: 5vh;
+  justify-content: center;
+  align-items: center;
+}
+nav > ul {
+  list-style: none;
+  display: flex;
+}
+nav > ul > * {
+  margin: 15px;
+}
