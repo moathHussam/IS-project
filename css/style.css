@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Marhey&family=Roboto+Condensed:wght@600;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +15,7 @@ body {
   color: var(--colorFont2);
 }
 header {
-  color: var(--colorFont);
+  color: var(--colorFont1);
   display: flex;
   background-color: var(--color2);
   height: 7vh;
@@ -27,7 +27,6 @@ nav > ul {
   display: flex;
 }
 nav > ul > * {
-  font-family: "Marhey", sans-serif;
   font-family: "Roboto Condensed", sans-serif;
   margin: 10px;
   font-size: 15pt;
@@ -41,11 +40,16 @@ nav > ul > *:hover {
 }
 main {
   display: flex;
+  position: relative;
+  min-height: 100vh;
 }
 footer {
-  position: sticky;
+  background-color: var(--color2);
+  font-family: "Roboto Condensed", sans-serif;
   display: flex;
-  bottom: 50vh;
+  min-height: 5vh;
   justify-content: center;
+  justify-items: center;
+  align-items: center;
   position: static !important;
 }
