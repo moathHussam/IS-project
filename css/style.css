@@ -6,18 +6,19 @@
 }
 :root {
   --colorBg: #001b2e;
-  --colorFont: #ffefd3;
+  --colorFont1: #ffefd3;
   --color2: #294c60;
-  --color4: ;
+  --colorFont2: #adb6c4;
 }
 body {
   background-color: var(--colorBg);
+  color: var(--colorFont2);
 }
 header {
   color: var(--colorFont);
   display: flex;
   background-color: var(--color2);
-  height: 5vh;
+  height: 7vh;
   justify-content: center;
   align-items: center;
 }
@@ -28,6 +29,23 @@ nav > ul {
 nav > ul > * {
   font-family: "Marhey", sans-serif;
   font-family: "Roboto Condensed", sans-serif;
-  margin: 15px;
+  margin: 10px;
   font-size: 15pt;
+  transition: 0.3s;
+}
+nav > ul > *:hover {
+  position: sticky;
+  cursor: pointer;
+  color: white;
+  border-bottom: solid 1px #ffff;
+}
+main {
+  display: flex;
+}
+footer {
+  position: sticky;
+  display: flex;
+  bottom: 50vh;
+  justify-content: center;
+  position: static !important;
 }
